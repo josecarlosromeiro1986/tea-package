@@ -1,5 +1,5 @@
 [package]
-name = "dinf"
+name = "my-tea-dinf"
 version = "0.1.2"
 edition = "2021"
 include = [
@@ -8,9 +8,9 @@ include = [
 	"README.md",
 	"LICENCE"
 ]
-homepage = "https://github.com/jeremychone/rust-dinf"
+homepage = "https://github.com/josecarlosromeiro1986/tea-package"
 description = "Simple command line to get directory information"
-repository = "https://github.com/jeremychone/rust-dinf"
+repository = "https://github.com/josecarlosromeiro1986/tea-package"
 keywords = [
 	"cli",
 	"directory"
