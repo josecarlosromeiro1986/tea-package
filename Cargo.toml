@@ -1,0 +1,28 @@
+[package]
+name = "dinf"
+version = "0.1.2"
+edition = "2021"
+include = [
+	"src/**/*",
+	"Cargo.toml",
+	"README.md",
+	"LICENCE"
+]
+homepage = "https://github.com/jeremychone/rust-dinf"
+description = "Simple command line to get directory information"
+repository = "https://github.com/jeremychone/rust-dinf"
+keywords = [
+	"cli",
+	"directory"
+]
+categories = ["command-line-interface"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1"
+clap =  {version = "4", features = ["cargo"]}
+walkdir = "2"
+file-size = "1"
+derive_more = {version = "1.0.0-beta.6", features = ["from", "display"]}
