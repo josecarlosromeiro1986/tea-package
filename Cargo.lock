@@ -105,7 +105,13 @@ dependencies = [
 ]
 
 [[package]]
-name = "dinf"
+name = "file-size"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9544f10105d33957765016b8a9baea7e689bf1f0f2f32c2fa2f568770c38d2b3"
+
+[[package]]
+name = "my-tea-dinf"
 version = "0.1.2"
 dependencies = [
  "clap",
@@ -114,12 +120,6 @@ dependencies = [
  "thiserror",
  "walkdir",
 ]
-
-[[package]]
-name = "file-size"
-version = "1.0.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9544f10105d33957765016b8a9baea7e689bf1f0f2f32c2fa2f568770c38d2b3"
 
 [[package]]
 name = "proc-macro2"
